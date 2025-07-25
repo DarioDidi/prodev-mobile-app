@@ -11,21 +11,26 @@ const styles = StyleSheet.create({
 		alignItems: 'center',
 		marginTop: 22
 	},
-	titleTextGroup: { marginTop: 20 },
+	titleTextGroup: {
+		marginTop: 20
+	},
 	titleText: {
 		fontWeight: 700,
-		fontSize: 39
+		fontSize: 39,
 	},
 	subText: {
 		fontWeight: 400,
 		fontSize: 12,
-		color: "#7B7B7B",
-		marginBottom: 7
+		color: '#7E7B7B'
+	},
+	formGroup: {
+		marginTop: 44,
+		rowGap: 10
 	},
 	formLabel: {
 		fontSize: 18,
 		fontWeight: 400,
-		color: "#7B7B7B",
+		color: '#7B7B7B',
 		marginBottom: 7
 	},
 	formControl: {
@@ -33,7 +38,7 @@ const styles = StyleSheet.create({
 		height: 50,
 		borderRadius: 10,
 		borderColor: '#E9E9E9',
-		paddingHorizontal: 10,
+		paddingHorizontal: 10
 	},
 	formPasswordControl: {
 		borderWidth: 2,
@@ -117,6 +122,7 @@ const styles = StyleSheet.create({
 		color: '#34967C',
 		marginTop: 9,
 	}
-})
+});
 
 export { styles };
+
