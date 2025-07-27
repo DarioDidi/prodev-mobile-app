@@ -1,5 +1,6 @@
 import PropertyListing from "@/components/PropertyListing";
-import { styles } from "@/styles/_homestyle";
+//import { styles } from "@/styles/_homestyle";
+import { styles } from "@/styles/_join";
 import { Feather } from "@expo/vector-icons";
 import {
   View,
