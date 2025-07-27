@@ -1,6 +1,5 @@
 import { View } from "react-native";
-//import PropertyListingCard from "./common/PropertyListingCard";
-import PropertyListingCard from "./PropertyListingCard";
+import PropertyListingCard from "./common/PropertyListingCard";
 import { useState } from "react";
 import { PropertListing, PropertyListingProps } from "../interfaces";
 
