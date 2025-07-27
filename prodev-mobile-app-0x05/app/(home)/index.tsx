@@ -1,9 +1,15 @@
 import PropertyListing from "@/components/PropertyListing";
 import { styles } from "@/styles/_homestyle";
 import { Feather } from "@expo/vector-icons";
-
-import { View, Text, TextInput, Image, ScrollView, Dimensions, TouchableHighlight } from "react-native";
-
+import {
+  View,
+  Text,
+  TextInput,
+  Image,
+  ScrollView,
+  Dimensions,
+  TouchableHighlight,
+} from "react-native";
 import { FILTERS, SAMPLE_DATA } from "@/constants/data";
 
 const Home = () => {
