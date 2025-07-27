@@ -16,8 +16,7 @@
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true,
-      "package": "com.anonymous.prodevmobileapp0x04"
+      "edgeToEdgeEnabled": true
     },
     "web": {
       "bundler": "metro",
