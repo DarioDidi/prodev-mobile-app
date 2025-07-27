@@ -1,4 +1,4 @@
-import { View, Text, StyleSheet, ImageBackground } from "react-native";
+import { View, Text, ImageBackground } from "react-native";
 import EvilIcons from "@expo/vector-icons/EvilIcons";
 import MaterialIcons from "@expo/vector-icons/MaterialIcons";
 import { PropertyListingProps } from "@/interfaces";
@@ -55,27 +55,3 @@ const PropertyListingCard: React.FC<PropertyListingProps> = ({
 };
 
 export default PropertyListingCard;
-
-Replace the content of components / PropertyListing with the following:
-
-import { View, Text } from "react-native";
-import PropertyListingCard from "./common/PropertyListingCard";
-import { useState } from "react";
-import { PropertListing, PropertyListingProps } from "../interfaces";
-
-const PropertyListing = ({ listings }: PropertListing) => {
-	return (
-		<View
-			style={{
-				flex: 1,
-				rowGap: 10,
-			}}
-		>
-			{listings?.map((listing, key) => (
-				<PropertyListingCard {...listing} key={key} />
-			))}
-		</View>
-	);
-};
-
-export default PropertyListing;
